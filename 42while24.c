@@ -8,20 +8,20 @@ int main(void)
 
     while(k<5)
     {
-
         sum+=k;//use something different in "while" version
         k++;
     }
 
-    printf ("%d\n",sum);
+    printf ("sum - %d\n",sum);
 
-    k=5;
+    //k=10;
 
     //while (k>0) {
-    for(k=4;k>0;k--)
+    for(k=10;k>0;k--)
 {
        // k=k-1; //use something different in "for" version
         printf ("%d\n", k);
     }
+     printf("Blastoff!");
 }
 
